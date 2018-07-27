@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "watson_natural_language_understanding_apikey": {
+    "searchPatterns": [
+      "user-provided:travisreporting-olap-naturallanguage-153236302583:apikey",
+      "cloudfoundry:$['bb6393bc-7d81-446b-9728-61b704f6eca5'][0].credentials.apikey",
+      "env:service_watson_natural_language_understanding:$.apikey",
+      "env:watson_natural_language_understanding_apikey",
+      "file:/server/localdev-config.json:$.watson_natural_language_understanding_apikey"
+    ]
+  },
+  "watson_natural_language_understanding": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided:travisreporting-olap-naturallanguage-153236302583:url",
+        "cloudfoundry:watson_natural_language_understanding",
+        "env:watson_natural_language_understanding_credentials",
+        "file://localdev-config.json:watson_natural_language_understanding_credentials"
+      ]
+    }
+  },
+  "watson_natural_language_understanding_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided:travisreporting-olap-naturallanguage-153236302583:iam_apikey_description",
+      "cloudfoundry:$['bb6393bc-7d81-446b-9728-61b704f6eca5'][0].credentials.iam_apikey_description",
+      "env:service_watson_natural_language_understanding:$.iam_apikey_description",
+      "env:watson_natural_language_understanding_iam_apikey_description",
+      "file:/server/localdev-config.json:$.watson_natural_language_understanding_iam_apikey_description"
+    ]
+  },
+  "watson_natural_language_understanding_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided:travisreporting-olap-naturallanguage-153236302583:iam_apikey_name",
+      "cloudfoundry:$['bb6393bc-7d81-446b-9728-61b704f6eca5'][0].credentials.iam_apikey_name",
+      "env:service_watson_natural_language_understanding:$.iam_apikey_name",
+      "env:watson_natural_language_understanding_iam_apikey_name",
+      "file:/server/localdev-config.json:$.watson_natural_language_understanding_iam_apikey_name"
+    ]
+  },
+  "watson_natural_language_understanding_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided:travisreporting-olap-naturallanguage-153236302583:iam_role_crn",
+      "cloudfoundry:$['bb6393bc-7d81-446b-9728-61b704f6eca5'][0].credentials.iam_role_crn",
+      "env:service_watson_natural_language_understanding:$.iam_role_crn",
+      "env:watson_natural_language_understanding_iam_role_crn",
+      "file:/server/localdev-config.json:$.watson_natural_language_understanding_iam_role_crn"
+    ]
+  },
+  "watson_natural_language_understanding_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided:travisreporting-olap-naturallanguage-153236302583:iam_serviceid_crn",
+      "cloudfoundry:$['bb6393bc-7d81-446b-9728-61b704f6eca5'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_natural_language_understanding:$.iam_serviceid_crn",
+      "env:watson_natural_language_understanding_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.watson_natural_language_understanding_iam_serviceid_crn"
+    ]
+  },
+  "watson_natural_language_understanding_url": {
+    "searchPatterns": [
+      "user-provided:travisreporting-olap-naturallanguage-153236302583:url",
+      "cloudfoundry:$['bb6393bc-7d81-446b-9728-61b704f6eca5'][0].credentials.url",
+      "env:service_watson_natural_language_understanding:$.url",
+      "env:watson_natural_language_understanding_url",
+      "file:/server/localdev-config.json:$.watson_natural_language_understanding_url"
+    ]
+  }
+}
